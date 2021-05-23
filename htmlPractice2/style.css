@@ -37,7 +37,7 @@ div {
 
 .top_main {
   width: 80%;
-  margin-left: 15px;
+  margin-left: 30px;
   margin-right: 15px;
 }
 
@@ -63,7 +63,46 @@ footer {
   background-color: blue;
 }
 
-.arr {
+.all_rights_reserved {
+  color: white;
+  text-align: center;
+}
+
+.main_introduction {
+  display: flex;
+}
+
+.pien {
+  object-fit: cover;
+  width: 400px;
+  height: 300px;
+}
+
+.personal {
+  flex-direction: column;
+}
+
+.detail {
+  margin-left: 30px;
+}
+
+.contact-form {
+  margin-left: 30px;
+}
+
+dt {
+  width: 100px;
+  padding: 10px 0;
+  float: left;
+  /* clear: both; */
+}
+
+dd {
+  padding: 10px 0;
+}
+
+.send {
+  background-color: blue;
   color: white;
   text-align: center;
 }
